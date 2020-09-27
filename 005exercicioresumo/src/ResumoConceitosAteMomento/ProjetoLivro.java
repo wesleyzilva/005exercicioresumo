@@ -5,11 +5,11 @@ public class ProjetoLivro {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		// Criando uma lista de pessoas usando vetor
+		// Instanciando a classe Pessoa e Livro para criar um vetor de objetos para testes.
 		Pessoa[] p = new Pessoa[3];
 		Livro[] l = new Livro[4];
 
-		// Instanciando uma pessoa e livro sem vetor
+		// Instanciando a classe pessoa á um objeto novo
 		/*
 		 * Pessoa p[1] = new Pessoa("Wesley", 36, "M"); Pessoa p[2] = new
 		 * Pessoa("Daiana", 39, "F"); Livro livro1 = new Livro(null, null, 0, pessoa1);
