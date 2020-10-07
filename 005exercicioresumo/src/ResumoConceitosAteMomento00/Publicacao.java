@@ -1,4 +1,4 @@
-package ResumoConceitosAteMomento;
+package ResumoConceitosAteMomento00;
 
 public interface Publicacao {
 

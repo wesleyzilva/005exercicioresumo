@@ -1,4 +1,10 @@
-package ResumoConceitosAteMomento;
+package ResumoConceitosAteMomento00;
+
+/*
+ * ENCAPSUPAMENTO : Uso privado de atributos para uso de métodos acessores e esperciais como interfaces 
+ * AGREGAÇÃO : Relacionamento do tipo "TEM UM" atributo de outra classe
+ */
+
 
 public class ProjetoLivro {
 
