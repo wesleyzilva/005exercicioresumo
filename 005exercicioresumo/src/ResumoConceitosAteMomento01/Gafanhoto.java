@@ -1,19 +1,17 @@
 package ResumoConceitosAteMomento01;
 
 public class Gafanhoto extends Pessoa {
-
 	private String login;
 	private int totAssistido;
-	private int assistido;
 
-	public Gafanhoto(boolean totAssistido, int assistido) {
-		super();
+	public Gafanhoto(String nome, int idade, String sexo, String login) {
+		super(nome, idade, sexo, login);
+		this.login = login;
 		this.totAssistido = 0;
-		this.assistido = 0;
 	}
 
 	void viuMaisUm() {
-		assistido++;
+		totAssistido++;
 	}
 
 	public String getLogin() {
@@ -24,19 +22,17 @@ public class Gafanhoto extends Pessoa {
 		this.login = login;
 	}
 
-	public boolean isTotAssistido() {
+	public int isTotAssistido() {
 		return totAssistido;
 	}
 
-	public void setTotAssistido(boolean totAssistido) {
-		this.totAssistido = totAssistido;
+	public void setTotAssistido(int i) {
+		this.totAssistido = i;
 	}
 
-	public int getAssistido() {
-		return assistido;
+	@Override
+	public String toString() {
+		return "Gafanhoto " + super.toString() + "\nlogin=" + login + ", totAssistido=" + totAssistido + "]";
 	}
 
-	public void setAssistido(int assistido) {
-		this.assistido = assistido;
-	}
 }
